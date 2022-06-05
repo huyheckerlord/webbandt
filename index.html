@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATShop</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Public+Sans:wght@500&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <!-- boxicons -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- app css -->
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/app.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+        <!-- mobile menu -->
+        <div class="mobile-menu bg-second">
+            <a href="index.html" class="mb-logo">FOX SHOP</a>
+            <span class="mb-menu-toggle" id="mb-menu-toggle">
+                <i class='bx bx-menu'></i>
+            </span>
+        </div>
+        <!-- end mobile menu -->
+        <!-- main header -->
+        <div class="header-wrapper" id="header-wrapper">
+            <span class="mb-menu-toggle mb-menu-close" id="mb-menu-close">
+                <i class='bx bx-x'></i>
+            </span>
+            <!-- top header -->
+            <div class="bg-second">
+                <div class="top-header container">
+                    <ul class="devided">
+                        <li>
+                            <a href="#">+840123456778</a>
+                        </li>
+                        <li>
+                            <a href="#">foxshop@gmail.com</a>
+                        </li>
+                    </ul>
+                    
+                        <li><a href="#">Phân phối tại Việt Nam</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end top header -->
+            <!-- mid header -->
+            <div class="bg-main">
+                <div class="mid-header container">
+                    <a href="index.html" class="logo">FOX SHOP</a>
+                    <div class="search">
+                        <input type="text" placeholder="Tìm kiếm">
+                        <i class='bx bx-search-alt'></i>
+                    </div>
+                    <ul class="user-menu">
+                        <li><a href="#"><i class='bx bx-bell'></i></a></li>
+                        <li><a href="#"><i class='bx bx-user-circle'></i></a></li>
+                        <li><a href="#"><i class='bx bx-cart'></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end mid header -->
+            <!-- bottom header -->
+            <div class="bg-second">
+                <div class="bottom-header container">
+                    <ul class="main-menu">
+                        <li><a href="#">Trang chủ</a></li>
+                        <!-- mega menu -->
+                        <li class="mega-dropdown">
+                            <a href="./products.html">Cửa hàng<i class='bx bxs-chevron-down'></i></a>
+                            <div class="mega-content">
+                                <div class="row">
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Samsung</h3>
+                                            <ul>
+                                                <li><a href="product-detail.html">
+                                                    SAMSUNG GALAXY Z FLIP 3</a></li>
+                                                <li><a href="product-detail.html">SAMSUNG GALAXY S22 ULTRA</a></li>
+                                                <li><a href="product-detail.html">SAMSUNG GALAXY M33</a></li>
+                                                <li><a href="product-detail.html">
+                                                    SAMSUNG GALAXY Z FLIP </a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Apple</h3>
+                                            <ul>
+                                                <li><a href="product-detail-1.html">IPHONE 13 PRO MAX</a></li>
+                                                <li><a href="product-detail-1.html">IPHONE 12</a></li>
+                                                <li><a href="product-detail-1.html">IPHONE X</a></li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Xiaomi</h3>
+                                            <ul>
+                                                <li><a href="#">XIAOMI 12 PRO
+                                                </a></li>
+                                                <li><a href="#">XIAOMI BLACKSHARK 2 PRO</a></li>
+                                                <li><a href="#">XIAOMI REDMI NOTE 9</a></li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-3 col-md-12">
+                                        <div class="box">
+                                            <h3>Oppo</h3>
+                                            <ul>
+                                                <li><a href="#">OPPO RENO 7
+                                                </a></li>
+                                                <li><a href="#">OPPO FIND X3 PRO
+                                                </a></li>
+                                                <li><a href="#">OPPO RENO 7</a></li>
+                                                
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row img-row">
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="./images/sumh-removebg-preview.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="./images/iphone-13-e-1024x983-16230548876251203869154-removebg-preview.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="./images/xiaomi12pro.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-3">
+                                        <div class="box">
+                                            <img src="./images/OPPO-Reno7-SE-blue-removebg-preview.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- end mega menu -->
+                        <li><a href="#">blog</a></li>
+                        <li><a href="#">liên hệ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end bottom header -->
+        </div>
+        <!-- end main header -->
+    </header>
+    <!-- end header -->
+
+    <!-- hero section -->
+    <div class="hero">
+        <div class="slider">
+            <div class="container">
+                <!-- slide item -->
+                <div class="slide active">
+                    <div class="info">
+                        <div class="info-content">
+                            <h3 class="top-down">
+                                Samsung Galaxy Z Flip
+                            </h3>
+                            <h2 class="top-down trans-delay-0-2">
+                                THIẾT KẾ HIỆN ĐẠI
+                            </h2>
+                            <p class="top-down trans-delay-0-4">
+                                Galaxy Z Flip được thiết kế cho lối sống hiện đại và không ngừng di chuyển. Giờ đây,  người dùng có thể trải nghiệm được nhiều hơn, từ nhiều góc độ – với trải nghiệm rảnh tay hoàn toàn mới. Trải nghiệm gập độc đáo này sẽ không giống với bất cứ chiếc smartphone nào trên thị trường hiện nay.
+                            </p>
+                            <div class="top-down trans-delay-0-6">
+                                <button class="btn-flat btn-hover">
+                                    <span>Mua ngay</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img top-down">
+                        <img src="./images/galaxy-z-flip_main-kv_purple-mirror_2p_rgb_191223-removebg-preview.png" alt="">
+                    </div>
+                </div>
+                <!-- end slide item -->
+                <!-- slide item -->
+                <div class="slide">
+                    <div class="info">
+                        <div class="info-content">
+                            <h3 class="top-down">
+                                XIAOMI 12 PRO
+                            </h3>
+                            <h2 class="top-down trans-delay-0-2">
+                                Thiết kế bóng bẩy, hoàn toàn khác biệt 
+                            </h2>
+                            <p class="top-down trans-delay-0-4">
+                                Với việc liên tục phát triển và cải tiến những công nghệ vượt bậc, Xiaomi đã đem đến một Xiaomi 12 Pro hoàn hảo, sẵn sàng làm chủ mọi cuộc chơi của bạn. Với bộ ba camera 50MP, màn hình 2K+, sạc nhanh 120W và bộ xử lý hàng đầu, điện thoại sẽ là lựa chọn hàng đầu cho năm 2022. 
+
+
+                            </p>
+                            <div class="top-down trans-delay-0-6">
+                                <button class="btn-flat btn-hover">
+                                    <span>Mua ngay</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img right-left">
+                        <img src="./images/xiaomi-12-pro-2-removebg-preview.png" alt="">
+                    </div>
+                </div>
+                <!-- end slide item -->
+                <!-- slide item -->
+                <div class="slide">
+                    <div class="info">
+                        <div class="info-content">
+                            <h3 class="top-down">
+                                IPHONE 13 PRO MAXX
+                            </h3>
+                            <h2 class="top-down trans-delay-0-2">
+                                Đắm chìm trong không gian màn hình lớn cực đã
+
+                            </h2>
+                            <p class="top-down trans-delay-0-4">
+                                iPhone 13 Pro Max xứng đáng là một chiếc iPhone lớn nhất, mạnh mẽ nhất và có thời lượng pin dài nhất từ trước đến nay sẽ cho bạn trải nghiệm tuyệt vời, từ những tác vụ bình thường cho đến các ứng dụng chuyên nghiệp.
+
+                            </p>
+                            <div class="top-down trans-delay-0-6">
+                                <button class="btn-flat btn-hover">
+                                    <span>mua ngay</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img left-right">
+                        <img src="./images/iphone-13-e-1024x983-16230548876251203869154-removebg-preview.png" alt="">
+                    </div>
+                </div>
+                <!-- end slide item -->
+            </div>
+            <!-- slider controller -->
+            <button class="slide-controll slide-next">
+                <i class='bx bxs-chevron-right'></i>
+            </button>
+            <button class="slide-controll slide-prev">
+                <i class='bx bxs-chevron-left'></i>
+            </button>
+            <!-- end slider controller -->
+        </div>
+    </div>
+    <!-- end hero section -->
+
+    <!-- promotion section -->
+    <div class="promotion">
+        <div class="row">
+            <div class="col-4 col-md-12 col-sm-12">
+                <div class="promotion-box">
+                    <div class="text">
+                        <h3>SAMSUNG</h3>
+                        <button class="btn-flat btn-hover"><span>Toàn bộ sản phẩm</span></button>
+                    </div>
+                    <img src="./images/samsungdak.png" alt="">
+                </div>
+            </div>
+            <div class="col-4 col-md-12 col-sm-12">
+                <div class="promotion-box">
+                    <div class="text">
+                        <h3>APPLE</h3>
+                        <button class="btn-flat btn-hover"><span>Toàn bộ sản phẩm</span></button>
+                    </div>
+                    <img src="./images/appledak.png" alt="">
+                </div>
+            </div>
+            <div class="col-4 col-md-12 col-sm-12">
+                <div class="promotion-box">
+                    <div class="text">
+                        <h3>XIAOMI</h3>
+                        <button class="btn-flat btn-hover"><span>Toàn bộ sản phẩm</span></button>
+                    </div>
+                    <img src="./images/xiaomidak.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end promotion section -->
+
+    <!-- product list -->
+    <div class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>SẢN PHẨM MỚI</h2>
+            </div>
+            <div class="row" id="latest-products">
+                <div class="col-3 col-md-6 col-sm-12">
+                    <div class="product-card">
+                        <div class="product-card-img">
+                            <img src="./images/galaxy-z-flip_main-kv_purple-mirror_2p_rgb_191223-removebg-preview.png" alt="">
+                            <img src="./images/sumh-removebg-preview.png" alt="">
+                        </div>
+                        <div class="product-card-info">
+                            <div class="product-btn">
+                                <a href="product-detail.html"><button class="btn-flat btn-hover btn-shop-now">mua ngay</button></a>
+                                <button class="btn-flat btn-hover btn-cart-add">
+                                    <i class='bx bxs-cart-add'></i>
+                                </button>
+                                <button class="btn-flat btn-hover btn-cart-add">
+                                    <i class='bx bxs-heart'></i>
+                                </button>
+                            </div>
+                            <div class="product-card-name">
+                                SAMSUNG GALAXY Z FLIP 
+                            </div>
+                            <div class="product-card-price">
+                                <span><del>20.434.000 đ</del></span>
+                                <span class="curr-price">19.000.000 đ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-footer">
+                <a href="./products.html" class="btn-flat btn-hover">Xem tất cả</a>
+            </div>
+        </div>
+    </div>
+    <!-- end product list -->
+
+    <!-- special product -->
+    <div class="bg-second">
+        <div class="section container">
+            <div class="row">
+                <div class="col-4 col-md-4">
+                    <div class="sp-item-img">
+                        <img src="./images/zflip3.png" alt="">
+                    </div>
+                </div>
+                <div class="col-7 col-md-8">
+                    <div class="sp-item-info">
+                        <div class="sp-item-name">SAMSUNG GALAXY Z FLIP 3</div>
+                        <p class="sp-item-description">
+                            Nối tiếp thành công của Galaxy Z Flip 5G, trong sự kiện Galaxy Unpacked vừa qua Samsung tiếp tục giới thiệu đến thế giới về Galaxy Z Flip3 5G 256GB. Sản phẩm có nhiều cải tiến từ độ bền cho đến hiệu năng và thậm chí nó còn vượt xa hơn mong đợi của mọi người.
+                        </p>
+                        <button class="btn-flat btn-hover">mua ngay</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end special product -->
+
+    <!-- product list -->
+    <div class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Bán chạy nhất</h2>
+            </div>
+            <div class="row" id="best-products">
+                <div class="col-3 col-md-6 col-sm-12">
+                    <div class="product-card">
+                        <div class="product-card-img">
+                            <img src="./images/glxm33.png" alt="">
+                            <img src="./images/glxm333.png" alt="">
+                        </div>
+                        <div class="product-card-info">
+                            <div class="product-btn">
+                                <button class="btn-flat btn-hover btn-shop-now">mua ngay</button>
+                                <button class="btn-flat btn-hover btn-cart-add">
+                                    <i class='bx bxs-cart-add'></i>
+                                </button>
+                                <button class="btn-flat btn-hover btn-cart-add">
+                                    <i class='bx bxs-heart'></i>
+                                </button>
+                            </div>
+                            <div class="product-card-name">
+                                SAMSUNG GALAXY M33
+                            </div>
+                            <div class="product-card-price">
+                                <span><del>8.000.000 đ</del></span>
+                                <span class="curr-price">7.443.000 đ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-footer">
+                <a href="./products.html" class="btn-flat btn-hover">xem tất cả</a>
+            </div>
+        </div>
+    </div>
+    <!-- end product list -->
+
+    <!-- blogs -->
+    <div class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>review</h2>
+            </div>
+            <div class="blog">
+                <div class="blog-img">
+                    <img src="./images/7-dieu-thu-vi-ban-co-the-lam-voi-samsung-galaxy-s22-ultra.jpg" alt="">
+                </div>
+                <div class="blog-info">
+                    <div class="blog-title">
+                        Samsung Galaxy S22 Ultra
+                    </div>
+                    <div class="blog-preview">
+                        Samsung Galaxy S22 Ultra được đánh giá mang ngoại hình vốn có của dòng Note trước giờ. Mặt trước Samsung Galaxy S22 Ultra được hoàn thiện ổn: màn hình sử dụng camera đục lỗ tối ưu không gian trải nghiệm cho người dùng. Các cạnh viền được làm siêu mỏng, viền vát cong nên khi vuốt không bị cấn tay.
+                    </div>
+                    <a href="https://www.samsung.com/vn/smartphones/galaxy-s22/?cid=vn_pd_ppc_sem_rainbow_Sustain_Sustain-Google-SEM-Rainbow-Sus-Wa-Tex-Nat-GG-Mix-CurModel-S22-Tradein1May-None_none_none&utm_source=sem&utm_medium=search&utm_campaign=SEM-Rainbow-Sus-Wa-Tex-Nat-GG-Mix-CurModel-S22-Tradein1May-None&utm_term=w&utm_content=none&gclid=Cj0KCQjwqPGUBhDwARIsANNwjV7mDJjJ_7Gt1EFP8GrTzUcS1Cx1hqse6JIeEp9pBOk_thnawrv0jFgaAldrEALw_wcB"><button class="btn-flat btn-hover">read more</button></a>
+                </div>
+            </div>
+            <div class="blog row-revere">
+                <div class="blog-img">
+                    <img src="./images/mi122222.jpg" alt="">
+                </div>
+                <div class="blog-info">
+                    <div class="blog-title">
+                        XIAOMI 12 PRO
+                    </div>
+                    <div class="blog-preview">
+                        Điểm nhấn ở mặt lưng là thiết kế giả da, chất liệu từng xuất hiện trên các dòng Galaxy Note trước đây của Samsung. Tuy nhiên, Xiaomi 12 Pro được gia công tốt hơn, cảm giác cầm nắm chắc chắn, khó bám bẩn và mồ hôi tay. Ngoài màu xanh, máy còn ba lựa chọn màu khác là đen, xanh lam, tím.
+                    </div>
+                    <button class="btn-flat btn-hover">đọc thêm</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- end blogs -->
+
+    <!-- footer -->
+    <footer class="bg-second">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 col-md-3"></div>
+                <div class="col-3 col-md-3">
+                    <h3 class="footer-head">Tên Thành Viên</h3>
+                    <ul class="menu">
+                        <li><a href="#">Help center</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">product help</a></li>
+                        <li><a href="#">warranty</a></li>
+                        <li><a href="#">order status</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-3 col-md-3 col-sm-12">
+                    <div class="contact">
+                        <h3 class="contact-header">
+                            FOX SHOP
+                        </h3>
+                        <ul class="contact-socials">
+                            <li><a href="#">
+                                    <i class='bx bxl-facebook-circle'></i>
+                                </a></li>
+                            <li><a href="#">
+                                    <i class='bx bxl-instagram-alt'></i>
+                                </a></li>
+                            <li><a href="#">
+                                    <i class='bx bxl-youtube'></i>
+                                </a></li>
+                            <li><a href="#">
+                                    <i class='bx bxl-twitter'></i>
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div class="subscribe">
+                        <input type="email" placeholder="ENTER YOUR EMAIL">
+                        <button>subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <!-- app js -->
+    <script src="./js/app.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
